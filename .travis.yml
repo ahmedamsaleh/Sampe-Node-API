@@ -8,16 +8,16 @@ cache: npm
 
 # Travis lifecycle methods
 before_install:
-  - echo "before_install"
+  - echo "before_install my changes"
 install:
-  - echo "install"
+  - echo "install my changes"
 before_script:
-  - echo "before_script"
+  - echo "before_script my changes"
 script:
-  - echo "script"
+  - echo "script my changes"
 after_success:
-  - echo "after_success"
+  - echo "after_success my changes"
 after_failure:
-  - echo "after_failure"
+  - echo "after_failure my changes"
 after_script:
-  - echo "after_script"
+  - echo "after_script my changes"
